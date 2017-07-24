@@ -13,6 +13,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+		<script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+		<script>
+    		lightbox.option({
+      			'resizeDuration': 200,
+      			'disableScrolling': true,
+      			'positionFromTop' : 60,
+      			'fadeDuration': 300
+    		})
+		</script>
 	</head>
 	<body>
 
@@ -65,7 +75,7 @@
 								</header>
 								<ul class="features">
 									<li id="NTHU_logo">
-										<a href="https://arxiv.org/abs/1705.00930"><img src="images/paper2.png" alt="" /></a>
+										<a href="images/paper2.png" data-lightbox="paper2"><img src="images/paper2.png" alt="" /></a>
 									</li>
 									<li>
 										<h3 class='align-left'><a href="https://arxiv.org/abs/1705.00930">Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner</a></h3>
@@ -78,7 +88,7 @@
 								</ul>
 								<ul class="features">
 									<li id="NTHU_logo">
-										<a href="https://drive.google.com/file/d/0B8EcGMvvvDXANkJvbGNPMGFMbkk/view"><img src="images/paper1.png" alt="" /></a>
+										<a href="images/paper1.png" data-lightbox="paper1"><img src="images/paper1.png" alt="" /></a>
 									</li>
 									<li>
 										<h3 class='align-left'><a href="https://drive.google.com/file/d/0B8EcGMvvvDXANkJvbGNPMGFMbkk/view">Video Captioning via Sentence Augmentation and Spatio-Temporal Attention</a></h3>
