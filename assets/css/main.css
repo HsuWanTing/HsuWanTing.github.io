@@ -2853,6 +2853,11 @@
 
 		.features h3{
 			margin-bottom: 0;
+			font-weight: 400;
+		}
+
+		.features a{
+			font-weight: 400;
 		}
 
 
