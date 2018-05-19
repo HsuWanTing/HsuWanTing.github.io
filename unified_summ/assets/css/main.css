@@ -2312,27 +2312,41 @@
 		display:inline-block;
 	}
 
-		.logo_top li {
+		.logo_top .long_logo{
+			width: calc(17%);
+			display:inline-block;
+	   		vertical-align:middle;
+		}
+
+		.logo_top .short_logo{
 			width: calc(10%);
 			display:inline-block;
 	   		vertical-align:middle;
 		}
 
-		.logo_top li img {
+		.long_logo img {
 			width: calc(100%);
-			display:inline-block;
-	   		vertical-align:middle;
+		}
+
+		.short_logo img {
+			width: calc(100%);
 		}
 
 		@media screen and (max-width: 980px) {
-			.logo_top li {
-				width: calc(15%);
+			.logo_top .long_logo {
+				width: calc(25%);
+			}
+			.logo_top .short_logo {
+				width: calc(20%);
 			}
 		}
 
 		@media screen and (max-width: 736px) {
-			.logo_top li {
-				width: calc(20%);
+			.logo_top .long_logo {
+				width: calc(30%);
+			}
+			.logo_top .short_logo {
+				width: calc(25%);
 			}
 		}
 			
@@ -2534,11 +2548,12 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 0 0;
-		padding-left: 1em;
+		/*padding-left: 1em;*/
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			padding-right: 0.5em;
 		}
 
 		ul.alt {
@@ -3185,7 +3200,7 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		background-attachment: fixed;
-		border-bottom: solid 1px #dddddd;
+		/*border-bottom: solid 1px #dddddd;*/
 	}
 
 		#header h1 {
@@ -3718,7 +3733,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 10em 3em 10em ;
+			padding: 5em 10em 5em 10em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3745,7 +3760,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 8em 2em 8em ;
+				padding: 4em 8em 4em 8em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3758,7 +3773,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 6em 2em 6em ;
+				padding: 4em 6em 4em 6em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3771,7 +3786,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 3em 1em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3784,7 +3799,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 3em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3801,7 +3816,7 @@
 			}
 
 				#main > .main {
-					padding: 2.5em 1.5em 0.5em 1.5em ;
+					padding: 2.5em 1.5em 2.5em 1.5em ;
 				}
 
 					#main > .main > .image.main:first-child {
