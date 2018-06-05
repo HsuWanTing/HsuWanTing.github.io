@@ -1797,8 +1797,7 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
-		text-align: left;
-		float: left;
+		/*text-align: left;*/
 	}
 
 	pre {
@@ -1813,7 +1812,7 @@
 			line-height: 1.75;
 			padding: 1em 1.5em;
 			overflow-x: auto;
-			text-align: left;
+			/*text-align: left;*/
 		}
 
 	hr {
